@@ -5,7 +5,7 @@ because the jenkins server when run it local Kubernetes cluster like minikube do
 
 
 ## insatlling steps
-befor you run the 
+befor you run the \
 kubectl apply -f command 
 you need to build the Docker file first:
 eval $(minikube docker-env) #If you use minikube cluster
