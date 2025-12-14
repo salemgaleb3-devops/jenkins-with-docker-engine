@@ -6,10 +6,10 @@ because the jenkins server when run it local Kubernetes cluster like minikube do
 
 ## insatlling steps
 befor you run the \
-kubectl apply -f command 
-you need to build the Docker file first:
-eval $(minikube docker-env) #If you use minikube cluster
-docker build -t jenkins-with-docker:lts .
+kubectl apply -f command \
+you need to build the Docker file first:\
+eval $(minikube docker-env) #If you use minikube cluster\
+docker build -t jenkins-with-docker:lts .\
 then you nedd to apply the kubectl by numbers from 01 first to 04
 
 
